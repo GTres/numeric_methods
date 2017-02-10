@@ -11,14 +11,14 @@ Usaremos los lenguajes de programación:
    * matlab
 
 Sistema operativo:
-    Linux (recomendado)
-    Windows
-    Mac OS
+* Linux (recomendado)
+* Windows
+*  Mac OS
 
 Para la documentación:
-    Latex
-    libre office
+* Latex
+*  libre office
 
 Para el control de versión y repositorio de fuentes:
-    git
-    github.com
+* git
+* github.com
