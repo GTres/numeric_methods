@@ -1,6 +1,6 @@
 # Métodos numéricos
 
-Repositorio con programas que resulven problemas de métodos numéricos.
+Repositorio con programas que resuelven problemas de métodos numéricos.
 
 
 ## Prerequisitos:
