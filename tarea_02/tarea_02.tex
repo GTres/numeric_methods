@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage{listings}
+\usepackage{xcolor} % for setting colors
+
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+
+
+% set the default code style
+\lstset{
+    frame=tb, % draw a frame at the top and bottom of the code block
+    tabsize=4, % tab space width
+    showstringspaces=false, % don't mark spaces in strings
+    numbers=left, % display line numbers on the left
+    commentstyle=\color{gray}, % comment color
+    keywordstyle=\color{blue}, % keyword color
+    stringstyle=\color{red} % string color
+}
+
+\begin{document}
+
+%\begin{lstlisting}[language=C++, caption={C++ code using listings}]
+%#include <iostream>
+%int main()
+%{
+ %   // print hello to the console
+%    std::cout << "Hello, world!" << std::endl;
+%    return 0;
+%}
+%end{lstlisting}
+
+%\begin{lstlisting}[language=Java, caption={Java code using listings}]
+%public class Hello
+%{
+%    public static void main(String[] args)
+%    {
+%        // print hello to the console
+%        System.out.println("Hello, world!");
+%    }
+%}
+%\end{lstlisting}
+%\lstinputlisting[language=c++]{punt_02_b_gauss_eliminacion.cpp}[caption=My Javascript Example]
+%\lstinputlisting[keywordstyle=\color{blue},commentstyle=\color{dkgreen},stringstyle=\color{mauve},breakatwhitespace=false,breaklines=true,rulecolor=\color{black},frame=single,showtabs=false,showstringspaces=false,showspaces=false,numbersep=5pt,numberstyle=\tiny\color{gray},basicstyle=\footnotesize,captionpos=t,caption=Elemento mayor,language=c++]{01_elemento_mayor.cpp}
+
+
+\lstinputlisting[keywordstyle=\color{blue},commentstyle=\color{dkgreen},stringstyle=\color{mauve},breakatwhitespace=false,breaklines=true,rulecolor=\color{black},frame=single,showtabs=false,showstringspaces=false,showspaces=false,numbersep=5pt,numberstyle=\tiny\color{gray},basicstyle=\footnotesize,captionpos=t,caption=LU factorization Doolittle,language=fortran]{02_a_LU_doolittle.f90}
+
+
+\lstinputlisting[keywordstyle=\color{blue},commentstyle=\color{dkgreen},stringstyle=\color{mauve},breakatwhitespace=false,breaklines=true,rulecolor=\color{black},frame=single,showtabs=false,showstringspaces=false,showspaces=false,numbersep=5pt,numberstyle=\tiny\color{gray},basicstyle=\footnotesize,captionpos=t,caption=Thomas algorithm,language=fortran]{Thomas.f90}
+
+
+
+
+
+\end{document}

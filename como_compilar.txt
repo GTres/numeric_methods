@@ -1,0 +1,11 @@
+Para compilar c++ un .cpp:
+g++ -Wall -pedantic programa.cpp -o ejecutable
+
+
+Para compilar en fortran 90/95 un f90
+
+gfortran programa.f90 -o ejecutable
+
+
+para compilar latex
+pdflatex archivo.tex
